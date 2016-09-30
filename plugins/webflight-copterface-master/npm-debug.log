@@ -1,0 +1,386 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.3
+3 info using node@v4.1.0
+4 verbose readDependencies loading dependencies from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\package.json
+5 verbose install where, deps [ 'C:\\Users\\586580\\Downloads\\ardrone-webflight-master\\ardrone-webflight-master\\plugins\\webflight-copterface-master',
+5 verbose install   [ 'ar-drone', 'opencv', 'node-pid-controller', 'async' ] ]
+6 verbose install where, peers [ 'C:\\Users\\586580\\Downloads\\ardrone-webflight-master\\ardrone-webflight-master\\plugins\\webflight-copterface-master',
+6 verbose install   [] ]
+7 verbose installManyTop reading for lifecycle C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\package.json
+8 info preinstall webflight-copterface@0.1.0
+9 verbose installManyTop reading scoped package data from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\ar-drone\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\async\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\node-pid-controller\package.json
+12 info package.json ar-drone@0.0.5 No license field.
+13 info package.json async@0.2.9 No license field.
+14 info package.json node-pid-controller@0.0.3 license should be a valid SPDX license expression
+15 verbose readDependencies loading dependencies from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\package.json
+16 verbose targetResolver reading package data from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\ar-drone\package.json
+17 verbose targetResolver reading package data from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\async\package.json
+18 verbose targetResolver reading package data from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\node-pid-controller\package.json
+19 verbose already installed skipping node-pid-controller@0.0.x C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+20 silly cache add args [ 'opencv@~0.1.0', null ]
+21 verbose cache add spec opencv@~0.1.0
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'opencv@~0.1.0',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'opencv',
+22 silly cache add   rawSpec: '~0.1.0',
+22 silly cache add   spec: '>=0.1.0 <0.2.0',
+22 silly cache add   type: 'range' }
+23 silly addNamed opencv@>=0.1.0 <0.2.0
+24 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for opencv
+25 silly addNameRange { name: 'opencv', range: '>=0.1.0 <0.2.0', hasData: false }
+26 silly mapToRegistry name opencv
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/opencv
+30 verbose addNameRange registry:https://registry.npmjs.org/opencv not in flight; fetching
+31 verbose already installed skipping async@0.2.9 C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+32 verbose already installed skipping ar-drone@0.0.5 C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+33 verbose request uri https://registry.npmjs.org/opencv
+34 verbose request no auth needed
+35 info attempt registry request try #1 at 11:48:34 PM
+36 verbose request id 9c9da4e540d25999
+37 verbose etag "3V49V4EAAI0J705N4BEDT8U3M"
+38 http request GET https://registry.npmjs.org/opencv
+39 http 304 https://registry.npmjs.org/opencv
+40 silly get cb [ 304,
+40 silly get   { date: 'Sat, 20 Feb 2016 06:48:26 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     etag: '"3V49V4EAAI0J705N4BEDT8U3M"',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-ord1735-ORD',
+40 silly get     'x-cache': 'HIT',
+40 silly get     'x-cache-hits': '1',
+40 silly get     'x-timer': 'S1455950906.928562,VS0,VE157',
+40 silly get     vary: 'Accept' } ]
+41 verbose etag https://registry.npmjs.org/opencv from cache
+42 verbose get saving opencv to C:\Users\586580\AppData\Roaming\npm-cache\registry.npmjs.org\opencv\.cache.json
+43 silly addNameRange number 2 { name: 'opencv', range: '>=0.1.0 <0.2.0', hasData: true }
+44 silly addNameRange versions [ 'opencv',
+44 silly addNameRange   [ '0.0.1',
+44 silly addNameRange     '0.0.2',
+44 silly addNameRange     '0.0.3',
+44 silly addNameRange     '0.0.4',
+44 silly addNameRange     '0.0.5',
+44 silly addNameRange     '0.0.6',
+44 silly addNameRange     '0.0.7',
+44 silly addNameRange     '0.0.8',
+44 silly addNameRange     '0.0.9',
+44 silly addNameRange     '0.0.10',
+44 silly addNameRange     '0.0.11',
+44 silly addNameRange     '0.0.12',
+44 silly addNameRange     '0.1.0',
+44 silly addNameRange     '0.2.0',
+44 silly addNameRange     '0.3.0',
+44 silly addNameRange     '0.3.1',
+44 silly addNameRange     '0.4.0',
+44 silly addNameRange     '0.5.0',
+44 silly addNameRange     '0.6.0',
+44 silly addNameRange     '0.7.0',
+44 silly addNameRange     '1.0.0',
+44 silly addNameRange     '2.0.0',
+44 silly addNameRange     '3.0.0',
+44 silly addNameRange     '3.1.0',
+44 silly addNameRange     '3.2.0',
+44 silly addNameRange     '4.0.0',
+44 silly addNameRange     '5.0.0' ] ]
+45 silly addNamed opencv@0.1.0
+46 verbose addNamed "0.1.0" is a plain semver version for opencv
+47 silly cache afterAdd opencv@0.1.0
+48 verbose afterAdd C:\Users\586580\AppData\Roaming\npm-cache\opencv\0.1.0\package\package.json not in flight; writing
+49 verbose afterAdd C:\Users\586580\AppData\Roaming\npm-cache\opencv\0.1.0\package\package.json written
+50 silly install resolved [ { name: 'opencv',
+50 silly install resolved     description: 'Node Bindings to OpenCV',
+50 silly install resolved     author: { name: 'Peter Braden', email: 'peterbraden@peterbraden.co.uk' },
+50 silly install resolved     dependencies: { buffers: '0.1.1' },
+50 silly install resolved     version: '0.1.0',
+50 silly install resolved     devDependencies: { vows: '*' },
+50 silly install resolved     engine: 'node >= 0.4.1',
+50 silly install resolved     scripts:
+50 silly install resolved      { preinstall: 'node-gyp clean rebuild',
+50 silly install resolved        test: 'vows test/unit.js' },
+50 silly install resolved     keywords: [ 'opencv', 'computer', 'vision', 'quadrocopter' ],
+50 silly install resolved     main: './lib/opencv',
+50 silly install resolved     _id: 'opencv@0.1.0',
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: '428991a5fa449d7db0372acb0c2d39aa985332d8',
+50 silly install resolved        tarball: 'http://registry.npmjs.org/opencv/-/opencv-0.1.0.tgz' },
+50 silly install resolved     _from: 'opencv@>=0.1.0 <0.2.0',
+50 silly install resolved     _npmVersion: '1.2.18',
+50 silly install resolved     _npmUser: { name: 'peterbraden', email: 'peterbraden@peterbraden.co.uk' },
+50 silly install resolved     maintainers: [ [Object] ],
+50 silly install resolved     directories: {},
+50 silly install resolved     _shasum: '428991a5fa449d7db0372acb0c2d39aa985332d8',
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/opencv/-/opencv-0.1.0.tgz',
+50 silly install resolved     readme: 'ERROR: No README data found!' } ]
+51 info install opencv@0.1.0 into C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+52 info installOne opencv@0.1.0
+53 verbose installOne of opencv to C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master not in flight; installing
+54 verbose lock using C:\Users\586580\AppData\Roaming\npm-cache\_locks\opencv-6718819408430d79.lock for C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+55 silly install write writing opencv 0.1.0 to C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+56 verbose unbuild node_modules\opencv
+57 silly gentlyRm C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv is being purged from base C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+58 verbose gentlyRm don't care about contents; nuking C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+59 verbose tar unpack C:\Users\586580\AppData\Roaming\npm-cache\opencv\0.1.0\package.tgz
+60 verbose tar unpacking to C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+61 silly gentlyRm C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv is being purged
+62 verbose gentlyRm don't care about contents; nuking C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+63 silly gunzTarPerm modes [ '777', '666' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 493, 511 ]
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm modified mode [ '.npmignore', 493, 511 ]
+68 silly gunzTarPerm extractEntry README.md
+69 silly gunzTarPerm modified mode [ 'README.md', 493, 511 ]
+70 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+71 silly gunzTarPerm modified mode [ 'MIT-LICENSE.txt', 420, 438 ]
+72 silly gunzTarPerm extractEntry ..gitignore.un~
+73 silly gunzTarPerm modified mode [ '..gitignore.un~', 493, 511 ]
+74 silly gunzTarPerm extractEntry .package.json.un~
+75 silly gunzTarPerm modified mode [ '.package.json.un~', 493, 511 ]
+76 silly gunzTarPerm extractEntry .temp.coffee.un~
+77 silly gunzTarPerm modified mode [ '.temp.coffee.un~', 420, 438 ]
+78 silly gunzTarPerm extractEntry .temp.js.un~
+79 silly gunzTarPerm modified mode [ '.temp.js.un~', 420, 438 ]
+80 silly gunzTarPerm extractEntry .travis.yml
+81 silly gunzTarPerm modified mode [ '.travis.yml', 493, 511 ]
+82 silly gunzTarPerm extractEntry Dockerfile
+83 silly gunzTarPerm modified mode [ 'Dockerfile', 420, 438 ]
+84 silly gunzTarPerm extractEntry ..travis.yml.un~
+85 silly gunzTarPerm modified mode [ '..travis.yml.un~', 493, 511 ]
+86 silly gunzTarPerm extractEntry .README.md.un~
+87 silly gunzTarPerm modified mode [ '.README.md.un~', 493, 511 ]
+88 silly gunzTarPerm extractEntry binding.gyp
+89 silly gunzTarPerm modified mode [ 'binding.gyp', 493, 511 ]
+90 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_big.xml
+91 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_eyepair_big.xml', 493, 511 ]
+92 silly gunzTarPerm extractEntry data/haarcascade_eye.xml
+93 silly gunzTarPerm modified mode [ 'data/haarcascade_eye.xml', 493, 511 ]
+94 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt.xml
+95 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_alt.xml', 493, 511 ]
+96 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt2.xml
+97 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_alt2.xml', 493, 511 ]
+98 silly gunzTarPerm extractEntry data/haarcascade_frontalface_alt_tree.xml
+99 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_alt_tree.xml', 493, 511 ]
+100 silly gunzTarPerm extractEntry data/haarcascade_frontalface_default.xml
+101 silly gunzTarPerm modified mode [ 'data/haarcascade_frontalface_default.xml', 493, 511 ]
+102 silly gunzTarPerm extractEntry data/haarcascade_fullbody.xml
+103 silly gunzTarPerm modified mode [ 'data/haarcascade_fullbody.xml', 493, 511 ]
+104 silly gunzTarPerm extractEntry data/haarcascade_lefteye_2splits.xml
+105 silly gunzTarPerm modified mode [ 'data/haarcascade_lefteye_2splits.xml', 493, 511 ]
+106 silly gunzTarPerm extractEntry data/haarcascade_lowerbody.xml
+107 silly gunzTarPerm modified mode [ 'data/haarcascade_lowerbody.xml', 493, 511 ]
+108 silly gunzTarPerm extractEntry data/haarcascade_eye_tree_eyeglasses.xml
+109 silly gunzTarPerm modified mode [ 'data/haarcascade_eye_tree_eyeglasses.xml', 493, 511 ]
+110 silly gunzTarPerm extractEntry data/haarcascade_mcs_eyepair_small.xml
+111 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_eyepair_small.xml', 493, 511 ]
+112 silly gunzTarPerm extractEntry data/haarcascade_mcs_lefteye.xml
+113 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_lefteye.xml', 493, 511 ]
+114 silly gunzTarPerm extractEntry data/haarcascade_mcs_mouth.xml
+115 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_mouth.xml', 493, 511 ]
+116 silly gunzTarPerm extractEntry data/haarcascade_mcs_nose.xml
+117 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_nose.xml', 493, 511 ]
+118 silly gunzTarPerm extractEntry data/haarcascade_mcs_righteye.xml
+119 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_righteye.xml', 493, 511 ]
+120 silly gunzTarPerm extractEntry data/haarcascade_mcs_upperbody.xml
+121 silly gunzTarPerm modified mode [ 'data/haarcascade_mcs_upperbody.xml', 493, 511 ]
+122 silly gunzTarPerm extractEntry data/haarcascade_profileface.xml
+123 silly gunzTarPerm modified mode [ 'data/haarcascade_profileface.xml', 493, 511 ]
+124 silly gunzTarPerm extractEntry data/haarcascade_righteye_2splits.xml
+125 silly gunzTarPerm modified mode [ 'data/haarcascade_righteye_2splits.xml', 493, 511 ]
+126 silly gunzTarPerm extractEntry data/haarcascade_upperbody.xml
+127 silly gunzTarPerm modified mode [ 'data/haarcascade_upperbody.xml', 493, 511 ]
+128 silly gunzTarPerm extractEntry examples/take-face-pics.js
+129 silly gunzTarPerm modified mode [ 'examples/take-face-pics.js', 420, 438 ]
+130 silly gunzTarPerm extractEntry examples/quad-crosses.js
+131 silly gunzTarPerm modified mode [ 'examples/quad-crosses.js', 493, 511 ]
+132 silly gunzTarPerm extractEntry examples/Face.js
+133 silly gunzTarPerm modified mode [ 'examples/Face.js', 493, 511 ]
+134 silly gunzTarPerm extractEntry examples/addweighted.js
+135 silly gunzTarPerm modified mode [ 'examples/addweighted.js', 493, 511 ]
+136 silly gunzTarPerm extractEntry examples/camera.js
+137 silly gunzTarPerm modified mode [ 'examples/camera.js', 493, 511 ]
+138 silly gunzTarPerm extractEntry examples/salt.js
+139 silly gunzTarPerm modified mode [ 'examples/salt.js', 493, 511 ]
+140 silly gunzTarPerm extractEntry examples/face_detection.js
+141 silly gunzTarPerm modified mode [ 'examples/face_detection.js', 493, 511 ]
+142 silly gunzTarPerm extractEntry examples/color_filter.js
+143 silly gunzTarPerm modified mode [ 'examples/color_filter.js', 420, 438 ]
+144 silly gunzTarPerm extractEntry examples/contours.js
+145 silly gunzTarPerm modified mode [ 'examples/contours.js', 493, 511 ]
+146 silly gunzTarPerm extractEntry examples/convert_image.js
+147 silly gunzTarPerm modified mode [ 'examples/convert_image.js', 493, 511 ]
+148 silly gunzTarPerm extractEntry examples/detect-shapes.js
+149 silly gunzTarPerm modified mode [ 'examples/detect-shapes.js', 493, 511 ]
+150 silly gunzTarPerm extractEntry examples/motion-track.js
+151 silly gunzTarPerm modified mode [ 'examples/motion-track.js', 420, 438 ]
+152 silly gunzTarPerm extractEntry examples/face-proxy.js
+153 silly gunzTarPerm modified mode [ 'examples/face-proxy.js', 493, 511 ]
+154 silly gunzTarPerm extractEntry examples/over_text.png
+155 silly gunzTarPerm modified mode [ 'examples/over_text.png', 493, 511 ]
+156 silly gunzTarPerm extractEntry examples/.make-example-files.sh.un~
+157 silly gunzTarPerm modified mode [ 'examples/.make-example-files.sh.un~', 493, 511 ]
+158 silly gunzTarPerm extractEntry examples/make-example-files.sh
+159 silly gunzTarPerm modified mode [ 'examples/make-example-files.sh', 493, 511 ]
+160 silly gunzTarPerm extractEntry examples/mona.png
+161 silly gunzTarPerm modified mode [ 'examples/mona.png', 493, 511 ]
+162 silly gunzTarPerm extractEntry examples/coin1.jpg
+163 silly gunzTarPerm modified mode [ 'examples/coin1.jpg', 420, 438 ]
+164 silly gunzTarPerm extractEntry examples/motion.mov
+165 silly gunzTarPerm modified mode [ 'examples/motion.mov', 420, 438 ]
+166 silly gunzTarPerm extractEntry examples/coin2.jpg
+167 silly gunzTarPerm modified mode [ 'examples/coin2.jpg', 420, 438 ]
+168 silly gunzTarPerm extractEntry examples/.take-face-pics.js.un~
+169 silly gunzTarPerm modified mode [ 'examples/.take-face-pics.js.un~', 420, 438 ]
+170 silly gunzTarPerm extractEntry examples/quads.jpg
+171 silly gunzTarPerm modified mode [ 'examples/quads.jpg', 420, 438 ]
+172 silly gunzTarPerm extractEntry examples/.motion-track.js.un~
+173 silly gunzTarPerm modified mode [ 'examples/.motion-track.js.un~', 420, 438 ]
+174 silly gunzTarPerm extractEntry examples/shapes.jpg
+175 silly gunzTarPerm modified mode [ 'examples/shapes.jpg', 420, 438 ]
+176 silly gunzTarPerm extractEntry examples/stuff.png
+177 silly gunzTarPerm modified mode [ 'examples/stuff.png', 493, 511 ]
+178 silly gunzTarPerm extractEntry examples/.camera.js.un~
+179 silly gunzTarPerm modified mode [ 'examples/.camera.js.un~', 493, 511 ]
+180 silly gunzTarPerm extractEntry index.html
+181 silly gunzTarPerm modified mode [ 'index.html', 493, 511 ]
+182 silly gunzTarPerm extractEntry lib/bindings.js
+183 silly gunzTarPerm modified mode [ 'lib/bindings.js', 493, 511 ]
+184 silly gunzTarPerm extractEntry lib/opencv.js
+185 silly gunzTarPerm modified mode [ 'lib/opencv.js', 493, 511 ]
+186 silly gunzTarPerm extractEntry lib/.opencv.js.un~
+187 silly gunzTarPerm modified mode [ 'lib/.opencv.js.un~', 493, 511 ]
+188 silly gunzTarPerm extractEntry .binding.gyp.un~
+189 silly gunzTarPerm modified mode [ '.binding.gyp.un~', 493, 511 ]
+190 silly gunzTarPerm extractEntry smoke/smoketest.js
+191 silly gunzTarPerm modified mode [ 'smoke/smoketest.js', 493, 511 ]
+192 silly gunzTarPerm extractEntry smoke/.smoke.sh.un~
+193 silly gunzTarPerm modified mode [ 'smoke/.smoke.sh.un~', 493, 511 ]
+194 silly gunzTarPerm extractEntry smoke/.smoketest.js.un~
+195 silly gunzTarPerm modified mode [ 'smoke/.smoketest.js.un~', 493, 511 ]
+196 silly gunzTarPerm extractEntry smoke/smoke.sh
+197 silly gunzTarPerm modified mode [ 'smoke/smoke.sh', 493, 511 ]
+198 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.cc
+199 silly gunzTarPerm modified mode [ 'src/CascadeClassifierWrap.cc', 493, 511 ]
+200 silly gunzTarPerm extractEntry src/.CamShift.cc.un~
+201 silly gunzTarPerm modified mode [ 'src/.CamShift.cc.un~', 420, 438 ]
+202 silly gunzTarPerm extractEntry src/.CascadeClassifierWrap.cc.un~
+203 silly gunzTarPerm modified mode [ 'src/.CascadeClassifierWrap.cc.un~', 493, 511 ]
+204 silly gunzTarPerm extractEntry src/.CascadeClassifierWrap.h.un~
+205 silly gunzTarPerm modified mode [ 'src/.CascadeClassifierWrap.h.un~', 493, 511 ]
+206 silly gunzTarPerm extractEntry src/.FaceRecognizer.cc.un~
+207 silly gunzTarPerm modified mode [ 'src/.FaceRecognizer.cc.un~', 420, 438 ]
+208 silly gunzTarPerm extractEntry src/.FaceRecognizer.h.un~
+209 silly gunzTarPerm modified mode [ 'src/.FaceRecognizer.h.un~', 420, 438 ]
+210 silly gunzTarPerm extractEntry src/.HighGUI.cc.un~
+211 silly gunzTarPerm modified mode [ 'src/.HighGUI.cc.un~', 420, 438 ]
+212 silly gunzTarPerm extractEntry src/.HighGUI.h.un~
+213 silly gunzTarPerm modified mode [ 'src/.HighGUI.h.un~', 420, 438 ]
+214 silly gunzTarPerm extractEntry src/.Matrix.cc.un~
+215 silly gunzTarPerm modified mode [ 'src/.Matrix.cc.un~', 493, 511 ]
+216 silly gunzTarPerm extractEntry src/.Matrix.h.un~
+217 silly gunzTarPerm modified mode [ 'src/.Matrix.h.un~', 493, 511 ]
+218 silly gunzTarPerm extractEntry src/.OpenCV.h.un~
+219 silly gunzTarPerm modified mode [ 'src/.OpenCV.h.un~', 493, 511 ]
+220 silly gunzTarPerm extractEntry src/.VideoCaptureWrap.cc.un~
+221 silly gunzTarPerm modified mode [ 'src/.VideoCaptureWrap.cc.un~', 493, 511 ]
+222 silly gunzTarPerm extractEntry src/.VideoWriter.cc.un~
+223 silly gunzTarPerm modified mode [ 'src/.VideoWriter.cc.un~', 420, 438 ]
+224 silly gunzTarPerm extractEntry src/.VideoWriter.h.un~
+225 silly gunzTarPerm modified mode [ 'src/.VideoWriter.h.un~', 420, 438 ]
+226 silly gunzTarPerm extractEntry src/.init.cc.un~
+227 silly gunzTarPerm modified mode [ 'src/.init.cc.un~', 493, 511 ]
+228 silly gunzTarPerm extractEntry src/CamShift.cc
+229 silly gunzTarPerm modified mode [ 'src/CamShift.cc', 420, 438 ]
+230 silly gunzTarPerm extractEntry src/CamShift.h
+231 silly gunzTarPerm modified mode [ 'src/CamShift.h', 420, 438 ]
+232 silly gunzTarPerm extractEntry src/.CamShift.h.un~
+233 silly gunzTarPerm modified mode [ 'src/.CamShift.h.un~', 420, 438 ]
+234 silly gunzTarPerm extractEntry src/CascadeClassifierWrap.h
+235 silly gunzTarPerm modified mode [ 'src/CascadeClassifierWrap.h', 493, 511 ]
+236 silly gunzTarPerm extractEntry src/Contours.cc
+237 silly gunzTarPerm modified mode [ 'src/Contours.cc', 493, 511 ]
+238 silly gunzTarPerm extractEntry src/Contours.h
+239 silly gunzTarPerm modified mode [ 'src/Contours.h', 493, 511 ]
+240 silly gunzTarPerm extractEntry src/FaceRecognizer.cc
+241 silly gunzTarPerm modified mode [ 'src/FaceRecognizer.cc', 420, 438 ]
+242 silly gunzTarPerm extractEntry src/FaceRecognizer.h
+243 silly gunzTarPerm modified mode [ 'src/FaceRecognizer.h', 420, 438 ]
+244 silly gunzTarPerm extractEntry src/HighGUI.cc
+245 silly gunzTarPerm modified mode [ 'src/HighGUI.cc', 420, 438 ]
+246 silly gunzTarPerm extractEntry src/HighGUI.h
+247 silly gunzTarPerm modified mode [ 'src/HighGUI.h', 420, 438 ]
+248 silly gunzTarPerm extractEntry src/Matrix.cc
+249 silly gunzTarPerm modified mode [ 'src/Matrix.cc', 493, 511 ]
+250 silly gunzTarPerm extractEntry src/Matrix.h
+251 silly gunzTarPerm modified mode [ 'src/Matrix.h', 493, 511 ]
+252 silly gunzTarPerm extractEntry src/OpenCV.cc
+253 silly gunzTarPerm modified mode [ 'src/OpenCV.cc', 493, 511 ]
+254 silly gunzTarPerm extractEntry src/OpenCV.h
+255 silly gunzTarPerm modified mode [ 'src/OpenCV.h', 493, 511 ]
+256 silly gunzTarPerm extractEntry src/Point.cc
+257 silly gunzTarPerm modified mode [ 'src/Point.cc', 493, 511 ]
+258 silly gunzTarPerm extractEntry src/Point.h
+259 silly gunzTarPerm modified mode [ 'src/Point.h', 493, 511 ]
+260 silly gunzTarPerm extractEntry src/VideoCaptureWrap.cc
+261 silly gunzTarPerm modified mode [ 'src/VideoCaptureWrap.cc', 493, 511 ]
+262 silly gunzTarPerm extractEntry src/VideoCaptureWrap.h
+263 silly gunzTarPerm modified mode [ 'src/VideoCaptureWrap.h', 493, 511 ]
+264 silly gunzTarPerm extractEntry src/init.cc
+265 silly gunzTarPerm modified mode [ 'src/init.cc', 493, 511 ]
+266 silly gunzTarPerm extractEntry test/unit.js
+267 silly gunzTarPerm modified mode [ 'test/unit.js', 493, 511 ]
+268 silly gunzTarPerm extractEntry test/.temp.js.un~
+269 silly gunzTarPerm modified mode [ 'test/.temp.js.un~', 420, 438 ]
+270 silly gunzTarPerm extractEntry test/.unit.js.un~
+271 silly gunzTarPerm modified mode [ 'test/.unit.js.un~', 493, 511 ]
+272 verbose write writing to C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv\package.json
+273 info preinstall opencv@0.1.0
+274 verbose unsafe-perm in lifecycle true
+275 info opencv@0.1.0 Failed to exec preinstall script
+276 verbose unlock done using C:\Users\586580\AppData\Roaming\npm-cache\_locks\opencv-6718819408430d79.lock for C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+277 verbose stack Error: opencv@0.1.0 preinstall: `node-gyp clean rebuild`
+277 verbose stack Exit status 1
+277 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
+277 verbose stack     at emitTwo (events.js:87:13)
+277 verbose stack     at EventEmitter.emit (events.js:172:7)
+277 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+277 verbose stack     at emitTwo (events.js:87:13)
+277 verbose stack     at ChildProcess.emit (events.js:172:7)
+277 verbose stack     at maybeClose (internal/child_process.js:817:16)
+277 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+278 verbose pkgid opencv@0.1.0
+279 verbose cwd C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+280 error Windows_NT 6.1.7601
+281 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save"
+282 error node v4.1.0
+283 error npm  v2.14.3
+284 error code ELIFECYCLE
+285 error opencv@0.1.0 preinstall: `node-gyp clean rebuild`
+285 error Exit status 1
+286 error Failed at the opencv@0.1.0 preinstall script 'node-gyp clean rebuild'.
+286 error This is most likely a problem with the opencv package,
+286 error not with npm itself.
+286 error Tell the author that this fails on your system:
+286 error     node-gyp clean rebuild
+286 error You can get their info via:
+286 error     npm owner ls opencv
+286 error There is likely additional logging output above.
+287 verbose exit [ 1, true ]
+288 verbose unbuild node_modules\opencv
+289 info preuninstall opencv@0.1.0
+290 info uninstall opencv@0.1.0
+291 verbose unbuild rmStuff opencv@0.1.0 from C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules
+292 info postuninstall opencv@0.1.0
+293 silly gentlyRm C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv is being purged from base C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master
+294 verbose gentlyRm don't care about contents; nuking C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+295 silly vacuum-fs purging C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules\opencv
+296 silly vacuum-fs quitting because other entries in C:\Users\586580\Downloads\ardrone-webflight-master\ardrone-webflight-master\plugins\webflight-copterface-master\node_modules

@@ -1,0 +1,67 @@
+{
+  "author": {
+    "name": "Felix Geisendörfer",
+    "email": "felix@debuggable.com",
+    "url": "http://debuggable.com/"
+  },
+  "name": "ar-drone",
+  "description": "A node.js client for controlling Parrot AR Drone 2.0 quad-copters.",
+  "version": "0.0.5",
+  "homepage": "https://github.com/felixge/node-ar-drone",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/felixge/node-ar-drone.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "node test/run.js"
+  },
+  "dependencies": {
+    "buffy": "0.0.4"
+  },
+  "devDependencies": {
+    "utest": "0.0.6",
+    "urun": "0.0.6",
+    "sinon": "1.4.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "_id": "ar-drone@0.0.5",
+  "dist": {
+    "shasum": "bb1b870321a2f0b64a4bcddd80f9fc03bd87bcd5",
+    "tarball": "http://registry.npmjs.org/ar-drone/-/ar-drone-0.0.5.tgz"
+  },
+  "_npmVersion": "1.1.65",
+  "_npmUser": {
+    "name": "bkw",
+    "email": "bkw@codingforce.com"
+  },
+  "maintainers": [
+    {
+      "name": "felixge",
+      "email": "felix@debuggable.com"
+    },
+    {
+      "name": "bkw",
+      "email": "bkw@codingforce.com"
+    },
+    {
+      "name": "jfsiii",
+      "email": "npmjs.org@JFSIII.org"
+    },
+    {
+      "name": "fractal",
+      "email": "contact@wearefractal.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "bb1b870321a2f0b64a4bcddd80f9fc03bd87bcd5",
+  "_resolved": "https://registry.npmjs.org/ar-drone/-/ar-drone-0.0.5.tgz",
+  "_from": "ar-drone@0.0.5",
+  "bugs": {
+    "url": "https://github.com/felixge/node-ar-drone/issues"
+  },
+  "readme": "ERROR: No README data found!"
+}
